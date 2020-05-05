@@ -1,0 +1,1430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+<div id="HomeNav">
+  <a href="../index.html" id="index">Home</a>
+</div>
+
+
+<title> Covid-19 May 1st 2020</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+
+#HomeNav a {
+  position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    z-index: 1;
+}
+
+#HomeNav a:hover {
+    left: 0 /* On mouse-over, make the elements appear as they should */
+}
+
+#index {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+ <!-- GeoChart generated in R 3.5.1 by googleVis 0.6.3 package -->
+<!-- Sat May 02 12:09:50 2020 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoChartID17606758303c () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Afghanistan",
+"Afghanistan",
+2335,
+68
+],
+[
+"Albania",
+"Albania",
+782,
+31
+],
+[
+"Algeria",
+"Algeria",
+4154,
+453
+],
+[
+"Andorra",
+"Andorra",
+745,
+42
+],
+[
+"Angola",
+"Angola",
+27,
+2
+],
+[
+"Anguilla",
+"Anguilla",
+3,
+0
+],
+[
+"Antigua and Barbuda",
+"Antigua and Barbuda",
+24,
+3
+],
+[
+"Argentina",
+"Argentina",
+4428,
+218
+],
+[
+"Armenia",
+"Armenia",
+2148,
+33
+],
+[
+"Aruba",
+"Aruba",
+100,
+2
+],
+[
+"Australia",
+"Australia",
+6767,
+93
+],
+[
+"Austria",
+"Austria",
+15531,
+589
+],
+[
+"Azerbaijan",
+"Azerbaijan",
+1854,
+25
+],
+[
+"Bahamas",
+"Bahamas",
+81,
+11
+],
+[
+"Bahrain",
+"Bahrain",
+3169,
+8
+],
+[
+"Bangladesh",
+"Bangladesh",
+8238,
+170
+],
+[
+"Barbados",
+"Barbados",
+81,
+7
+],
+[
+"Belarus",
+"Belarus",
+14917,
+93
+],
+[
+"Belgium",
+"Belgium",
+49032,
+7703
+],
+[
+"Belize",
+"Belize",
+18,
+2
+],
+[
+"Benin",
+"Benin",
+64,
+1
+],
+[
+"Bermuda",
+"Bermuda",
+114,
+6
+],
+[
+"Bhutan",
+"Bhutan",
+7,
+0
+],
+[
+"Bolivia",
+"Bolivia",
+1167,
+62
+],
+[
+"Bosnia and Herzegovina",
+"Bosnia and Herzegovina",
+1781,
+70
+],
+[
+"Botswana",
+"Botswana",
+23,
+1
+],
+[
+"Brazil",
+"Brazil",
+87187,
+6006
+],
+[
+"British Virgin Islands",
+"British Virgin Islands",
+6,
+1
+],
+[
+"Brunei Darussalam",
+"Brunei Darussalam",
+138,
+1
+],
+[
+"Bulgaria",
+"Bulgaria",
+1555,
+68
+],
+[
+"Burkina Faso",
+"Burkina Faso",
+645,
+43
+],
+[
+"Burundi",
+"Burundi",
+11,
+1
+],
+[
+"Cabo Verde",
+"Cabo Verde",
+122,
+1
+],
+[
+"Cambodia",
+"Cambodia",
+122,
+0
+],
+[
+"Cameroon",
+"Cameroon",
+1832,
+61
+],
+[
+"Canada",
+"Canada",
+53657,
+3223
+],
+[
+"Caribbean Netherlands",
+"Caribbean Netherlands",
+5,
+0
+],
+[
+"Cayman Islands",
+"Cayman Islands",
+73,
+1
+],
+[
+"Central African Republic",
+"Central African Republic",
+64,
+0
+],
+[
+"Chad",
+"Chad",
+73,
+5
+],
+[
+"Channel Islands",
+"Channel Islands",
+538,
+41
+],
+[
+"Chile",
+"Chile",
+17008,
+234
+],
+[
+"China",
+"China",
+82874,
+4633
+],
+[
+"Colombia",
+"Colombia",
+6507,
+293
+],
+[
+"Comoros",
+"Comoros",
+1,
+0
+],
+[
+"Congo",
+"Congo",
+220,
+9
+],
+[
+"Costa Rica",
+"Costa Rica",
+719,
+6
+],
+[
+"Côte d'Ivoire",
+"Côte d'Ivoire",
+1275,
+14
+],
+[
+"Croatia",
+"Croatia",
+2085,
+75
+],
+[
+"Cuba",
+"Cuba",
+1501,
+61
+],
+[
+"Curaçao",
+"Curaçao",
+16,
+1
+],
+[
+"Cyprus",
+"Cyprus",
+857,
+15
+],
+[
+"Czech Republic (Czechia)",
+"Czech Republic (Czechia)",
+7726,
+240
+],
+[
+"Denmark",
+"Denmark",
+9311,
+460
+],
+[
+"Djibouti",
+"Djibouti",
+1097,
+2
+],
+[
+"Dominica",
+"Dominica",
+16,
+0
+],
+[
+"Dominican Republic",
+"Dominican Republic",
+7288,
+313
+],
+[
+"DR Congo",
+"DR Congo",
+572,
+31
+],
+[
+"Ecuador",
+"Ecuador",
+24934,
+900
+],
+[
+"Egypt",
+"Egypt",
+5895,
+406
+],
+[
+"El Salvador",
+"El Salvador",
+424,
+10
+],
+[
+"Equatorial Guinea",
+"Equatorial Guinea",
+315,
+1
+],
+[
+"Eritrea",
+"Eritrea",
+39,
+0
+],
+[
+"Estonia",
+"Estonia",
+1694,
+52
+],
+[
+"Eswatini",
+"Eswatini",
+106,
+1
+],
+[
+"Ethiopia",
+"Ethiopia",
+133,
+3
+],
+[
+"Faeroe Islands",
+"Faeroe Islands",
+187,
+0
+],
+[
+"Falkland Islands",
+"Falkland Islands",
+13,
+0
+],
+[
+"Fiji",
+"Fiji",
+18,
+0
+],
+[
+"Finland",
+"Finland",
+5051,
+218
+],
+[
+"France",
+"France",
+167178,
+24376
+],
+[
+"French Guiana",
+"French Guiana",
+128,
+1
+],
+[
+"French Polynesia",
+"French Polynesia",
+58,
+0
+],
+[
+"Gabon",
+"Gabon",
+276,
+3
+],
+[
+"Gambia",
+"Gambia",
+12,
+1
+],
+[
+"Georgia",
+"Georgia",
+566,
+6
+],
+[
+"Germany",
+"Germany",
+163331,
+6632
+],
+[
+"Ghana",
+"Ghana",
+2074,
+17
+],
+[
+"Gibraltar",
+"Gibraltar",
+144,
+0
+],
+[
+"Greece",
+"Greece",
+2612,
+140
+],
+[
+"Greenland",
+"Greenland",
+11,
+0
+],
+[
+"Grenada",
+"Grenada",
+20,
+0
+],
+[
+"Guadeloupe",
+"Guadeloupe",
+152,
+12
+],
+[
+"Guatemala",
+"Guatemala",
+599,
+16
+],
+[
+"Guinea",
+"Guinea",
+1495,
+7
+],
+[
+"Guinea-Bissau",
+"Guinea-Bissau",
+205,
+1
+],
+[
+"Guyana",
+"Guyana",
+82,
+9
+],
+[
+"Haiti",
+"Haiti",
+81,
+8
+],
+[
+"Holy See",
+"Holy See",
+11,
+0
+],
+[
+"Honduras",
+"Honduras",
+804,
+75
+],
+[
+"Hong Kong",
+"Hong Kong",
+1040,
+4
+],
+[
+"Hungary",
+"Hungary",
+2863,
+323
+],
+[
+"Iceland",
+"Iceland",
+1798,
+10
+],
+[
+"India",
+"India",
+35043,
+1154
+],
+[
+"Indonesia",
+"Indonesia",
+10551,
+800
+],
+[
+"Iran",
+"Iran",
+95646,
+6091
+],
+[
+"Iraq",
+"Iraq",
+2085,
+93
+],
+[
+"Ireland",
+"Ireland",
+20612,
+1232
+],
+[
+"Isle of Man",
+"Isle of Man",
+316,
+22
+],
+[
+"Israel",
+"Israel",
+16004,
+223
+],
+[
+"Italy",
+"Italy",
+207428,
+28236
+],
+[
+"Jamaica",
+"Jamaica",
+422,
+8
+],
+[
+"Japan (+Diamond Princess)",
+"Japan (+Diamond Princess)",
+14800,
+443
+],
+[
+"Jordan",
+"Jordan",
+459,
+8
+],
+[
+"Kazakhstan",
+"Kazakhstan",
+3551,
+25
+],
+[
+"Kenya",
+"Kenya",
+411,
+21
+],
+[
+"Kuwait",
+"Kuwait",
+4377,
+30
+],
+[
+"Kyrgyzstan",
+"Kyrgyzstan",
+756,
+8
+],
+[
+"Laos",
+"Laos",
+19,
+0
+],
+[
+"Latvia",
+"Latvia",
+870,
+16
+],
+[
+"Lebanon",
+"Lebanon",
+729,
+24
+],
+[
+"Liberia",
+"Liberia",
+152,
+18
+],
+[
+"Libya",
+"Libya",
+61,
+3
+],
+[
+"Liechtenstein",
+"Liechtenstein",
+82,
+1
+],
+[
+"Lithuania",
+"Lithuania",
+1399,
+45
+],
+[
+"Luxembourg",
+"Luxembourg",
+3802,
+92
+],
+[
+"Macao",
+"Macao",
+45,
+0
+],
+[
+"Madagascar",
+"Madagascar",
+132,
+0
+],
+[
+"Malawi",
+"Malawi",
+37,
+3
+],
+[
+"Malaysia",
+"Malaysia",
+6071,
+103
+],
+[
+"Maldives",
+"Maldives",
+475,
+1
+],
+[
+"Mali",
+"Mali",
+508,
+26
+],
+[
+"Malta",
+"Malta",
+467,
+4
+],
+[
+"Martinique",
+"Martinique",
+179,
+14
+],
+[
+"Mauritania",
+"Mauritania",
+8,
+1
+],
+[
+"Mauritius",
+"Mauritius",
+332,
+10
+],
+[
+"Mayotte",
+"Mayotte",
+539,
+4
+],
+[
+"Mexico",
+"Mexico",
+19224,
+1859
+],
+[
+"Moldova",
+"Moldova",
+3980,
+122
+],
+[
+"Monaco",
+"Monaco",
+95,
+4
+],
+[
+"Mongolia",
+"Mongolia",
+38,
+0
+],
+[
+"Montenegro",
+"Montenegro",
+322,
+7
+],
+[
+"Montserrat",
+"Montserrat",
+11,
+1
+],
+[
+"Morocco",
+"Morocco",
+4529,
+171
+],
+[
+"Mozambique",
+"Mozambique",
+76,
+0
+],
+[
+"MS Zaandam",
+"MS Zaandam",
+9,
+2
+],
+[
+"Myanmar",
+"Myanmar",
+151,
+6
+],
+[
+"Namibia",
+"Namibia",
+16,
+0
+],
+[
+"Nepal",
+"Nepal",
+59,
+0
+],
+[
+"Netherlands",
+"Netherlands",
+39791,
+4893
+],
+[
+"New Caledonia",
+"New Caledonia",
+18,
+0
+],
+[
+"New Zealand",
+"New Zealand",
+1479,
+19
+],
+[
+"Nicaragua",
+"Nicaragua",
+14,
+3
+],
+[
+"Niger",
+"Niger",
+719,
+32
+],
+[
+"Nigeria",
+"Nigeria",
+1932,
+58
+],
+[
+"North Macedonia",
+"North Macedonia",
+1494,
+81
+],
+[
+"Norway",
+"Norway",
+7770,
+210
+],
+[
+"Oman",
+"Oman",
+2447,
+11
+],
+[
+"Pakistan",
+"Pakistan",
+17611,
+406
+],
+[
+"Panama",
+"Panama",
+6532,
+188
+],
+[
+"Papua New Guinea",
+"Papua New Guinea",
+8,
+0
+],
+[
+"Paraguay",
+"Paraguay",
+266,
+10
+],
+[
+"Peru",
+"Peru",
+36976,
+1051
+],
+[
+"Philippines",
+"Philippines",
+8772,
+579
+],
+[
+"Poland",
+"Poland",
+13105,
+651
+],
+[
+"Portugal",
+"Portugal",
+25351,
+1007
+],
+[
+"Qatar",
+"Qatar",
+14096,
+12
+],
+[
+"Réunion",
+"Réunion",
+420,
+0
+],
+[
+"Romania",
+"Romania",
+12567,
+726
+],
+[
+"Russia",
+"Russia",
+114431,
+1169
+],
+[
+"Rwanda",
+"Rwanda",
+243,
+0
+],
+[
+"Saint Barthelemy",
+"Saint Barthelemy",
+6,
+0
+],
+[
+"Saint Kitts & Nevis",
+"Saint Kitts & Nevis",
+15,
+0
+],
+[
+"Saint Lucia",
+"Saint Lucia",
+17,
+0
+],
+[
+"Saint Martin",
+"Saint Martin",
+38,
+3
+],
+[
+"Saint Pierre & Miquelon",
+"Saint Pierre & Miquelon",
+1,
+0
+],
+[
+"San Marino",
+"San Marino",
+580,
+41
+],
+[
+"Sao Tome & Principe",
+"Sao Tome & Principe",
+16,
+1
+],
+[
+"Saudi Arabia",
+"Saudi Arabia",
+24097,
+169
+],
+[
+"Senegal",
+"Senegal",
+1024,
+9
+],
+[
+"Serbia",
+"Serbia",
+9205,
+185
+],
+[
+"Seychelles",
+"Seychelles",
+11,
+0
+],
+[
+"Sierra Leone",
+"Sierra Leone",
+136,
+7
+],
+[
+"Singapore",
+"Singapore",
+17101,
+16
+],
+[
+"Sint Maarten",
+"Sint Maarten",
+76,
+13
+],
+[
+"Slovakia",
+"Slovakia",
+1403,
+23
+],
+[
+"Slovenia",
+"Slovenia",
+1434,
+92
+],
+[
+"Somalia",
+"Somalia",
+601,
+28
+],
+[
+"South Africa",
+"South Africa",
+5647,
+103
+],
+[
+"South Korea",
+"South Korea",
+10774,
+248
+],
+[
+"South Sudan",
+"South Sudan",
+35,
+0
+],
+[
+"Spain",
+"Spain",
+239639,
+24824
+],
+[
+"Sri Lanka",
+"Sri Lanka",
+690,
+7
+],
+[
+"St. Vincent & Grenadines",
+"St. Vincent & Grenadines",
+16,
+0
+],
+[
+"State of Palestine",
+"State of Palestine",
+344,
+2
+],
+[
+"Sudan",
+"Sudan",
+442,
+31
+],
+[
+"Suriname",
+"Suriname",
+10,
+1
+],
+[
+"Sweden",
+"Sweden",
+21520,
+2653
+],
+[
+"Switzerland",
+"Switzerland",
+29705,
+1749
+],
+[
+"Syria",
+"Syria",
+43,
+3
+],
+[
+"Taiwan",
+"Taiwan",
+429,
+6
+],
+[
+"Tajikistan",
+"Tajikistan",
+15,
+0
+],
+[
+"Tanzania",
+"Tanzania",
+480,
+16
+],
+[
+"Thailand",
+"Thailand",
+2960,
+54
+],
+[
+"Timor-Leste",
+"Timor-Leste",
+24,
+0
+],
+[
+"Togo",
+"Togo",
+123,
+9
+],
+[
+"Trinidad and Tobago",
+"Trinidad and Tobago",
+116,
+8
+],
+[
+"Tunisia",
+"Tunisia",
+994,
+41
+],
+[
+"Turkey",
+"Turkey",
+120204,
+3174
+],
+[
+"Turks and Caicos",
+"Turks and Caicos",
+12,
+1
+],
+[
+"Uganda",
+"Uganda",
+83,
+0
+],
+[
+"Ukraine",
+"Ukraine",
+10861,
+272
+],
+[
+"United Arab Emirates",
+"United Arab Emirates",
+13038,
+111
+],
+[
+"United Kingdom",
+"United Kingdom",
+177454,
+27510
+],
+[
+"United States",
+"United States",
+1103927,
+64460
+],
+[
+"Uruguay",
+"Uruguay",
+643,
+17
+],
+[
+"Uzbekistan",
+"Uzbekistan",
+2075,
+9
+],
+[
+"Venezuela",
+"Venezuela",
+333,
+10
+],
+[
+"Vietnam",
+"Vietnam",
+270,
+0
+],
+[
+"Western Sahara",
+"Western Sahara",
+6,
+0
+],
+[
+"Yemen",
+"Yemen",
+6,
+2
+],
+[
+"Zambia",
+"Zambia",
+109,
+3
+],
+[
+"Zimbabwe",
+"Zimbabwe",
+40,
+4
+] 
+];
+data.addColumn('string','Country');
+data.addColumn('string','Country.1');
+data.addColumn('number','Cases');
+data.addColumn('number','Deaths');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoChartID17606758303c() {
+var data = gvisDataGeoChartID17606758303c();
+var options = {};
+options["width"] = 556;
+options["height"] = 347;
+options["colors"] = ['yellow','orange','red'];
+
+
+    var chart = new google.visualization.GeoChart(
+    document.getElementById('GeoChartID17606758303c')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "geochart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartGeoChartID17606758303c);
+})();
+function displayChartGeoChartID17606758303c() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID17606758303c"></script>
+ 
+<!-- divChart -->
+  
+  <table align="center" border="1">
+  	<tr>
+  		<td>
+  			<h2 align="center">Covid 19 Status of the World Upto May 1st 2020</h2>
+<div id="GeoChartID17606758303c" 
+  style="width: 556; height: 347;">
+</div>
+	</td>
+</tr>
+ </table>
+<!-- htmlFooter -->
+<footer id="main-footer" align="center">
+  
+  <p>Copyright &copy; 2020 Banuka Wijerathne</p>
+</footer>
+
+</div>
+</body>
+</html>
