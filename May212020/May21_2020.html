@@ -1,0 +1,4072 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+<div id="HomeNav">
+  <a href="../index.html" id="index">Home</a>
+</div>
+
+<h1 align="center">Covid-19 Update May 21st 2020</h1>
+
+<title>Covid-19 Update May 21st 2020</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+
+#HomeNav a {
+	position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    z-index: 1;
+}
+
+#HomeNav a:hover {
+    left: 0 /* On mouse-over, make the elements appear as they should */
+}
+
+#index {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+</style>
+</head>
+<body>
+ <!-- GeoChart generated in R 3.5.1 by googleVis 0.6.3 package -->
+<!-- Fri May 22 11:06:50 2020 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGeoChartID2bc5b5962c1 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Afghanistan",
+"Afghanistan",
+8676,
+193
+],
+[
+"Albania",
+"Albania",
+969,
+31
+],
+[
+"Algeria",
+"Algeria",
+7728,
+575
+],
+[
+"Andorra",
+"Andorra",
+762,
+51
+],
+[
+"Angola",
+"Angola",
+58,
+3
+],
+[
+"Anguilla",
+"Anguilla",
+3,
+0
+],
+[
+"Antigua and Barbuda",
+"Antigua and Barbuda",
+25,
+3
+],
+[
+"Argentina",
+"Argentina",
+9931,
+416
+],
+[
+"Armenia",
+"Armenia",
+5606,
+70
+],
+[
+"Aruba",
+"Aruba",
+101,
+3
+],
+[
+"Australia",
+"Australia",
+7095,
+101
+],
+[
+"Austria",
+"Austria",
+16404,
+633
+],
+[
+"Azerbaijan",
+"Azerbaijan",
+3749,
+44
+],
+[
+"Bahamas",
+"Bahamas",
+97,
+11
+],
+[
+"Bahrain",
+"Bahrain",
+8174,
+12
+],
+[
+"Bangladesh",
+"Bangladesh",
+28511,
+408
+],
+[
+"Barbados",
+"Barbados",
+90,
+7
+],
+[
+"Belarus",
+"Belarus",
+33371,
+185
+],
+[
+"Belgium",
+"Belgium",
+56235,
+9186
+],
+[
+"Belize",
+"Belize",
+18,
+2
+],
+[
+"Benin",
+"Benin",
+135,
+3
+],
+[
+"Bermuda",
+"Bermuda",
+125,
+9
+],
+[
+"Bhutan",
+"Bhutan",
+21,
+0
+],
+[
+"Bolivia",
+"Bolivia",
+5187,
+215
+],
+[
+"Bosnia and Herzegovina",
+"Bosnia and Herzegovina",
+2350,
+140
+],
+[
+"Botswana",
+"Botswana",
+29,
+1
+],
+[
+"Brazil",
+"Brazil",
+310921,
+20082
+],
+[
+"British Virgin Islands",
+"British Virgin Islands",
+8,
+1
+],
+[
+"Brunei",
+"Brunei",
+141,
+1
+],
+[
+"Bulgaria",
+"Bulgaria",
+2331,
+120
+],
+[
+"Burkina Faso",
+"Burkina Faso",
+812,
+52
+],
+[
+"Burundi",
+"Burundi",
+42,
+1
+],
+[
+"Cabo Verde",
+"Cabo Verde",
+356,
+3
+],
+[
+"Cambodia",
+"Cambodia",
+123,
+0
+],
+[
+"Cameroon",
+"Cameroon",
+4288,
+156
+],
+[
+"Canada",
+"Canada",
+81324,
+6152
+],
+[
+"Caribbean Netherlands",
+"Caribbean Netherlands",
+6,
+0
+],
+[
+"Cayman Islands",
+"Cayman Islands",
+121,
+1
+],
+[
+"Central African Republic",
+"Central African Republic",
+436,
+0
+],
+[
+"Chad",
+"Chad",
+588,
+58
+],
+[
+"Channel Islands",
+"Channel Islands",
+558,
+45
+],
+[
+"Chile",
+"Chile",
+57581,
+589
+],
+[
+"China",
+"China",
+82971,
+4634
+],
+[
+"Colombia",
+"Colombia",
+18330,
+652
+],
+[
+"Comoros",
+"Comoros",
+34,
+1
+],
+[
+"Congo",
+"Congo",
+469,
+16
+],
+[
+"Costa Rica",
+"Costa Rica",
+903,
+10
+],
+[
+"Côte d'Ivoire",
+"Côte d'Ivoire",
+2301,
+29
+],
+[
+"Croatia",
+"Croatia",
+2237,
+97
+],
+[
+"Cuba",
+"Cuba",
+1908,
+80
+],
+[
+"Curaçao",
+"Curaçao",
+16,
+1
+],
+[
+"Cyprus",
+"Cyprus",
+923,
+17
+],
+[
+"Czech Republic (Czechia)",
+"Czech Republic (Czechia)",
+8754,
+306
+],
+[
+"Denmark",
+"Denmark",
+11182,
+561
+],
+[
+"Djibouti",
+"Djibouti",
+2047,
+10
+],
+[
+"Dominica",
+"Dominica",
+16,
+0
+],
+[
+"Dominican Republic",
+"Dominican Republic",
+13657,
+448
+],
+[
+"DR Congo",
+"DR Congo",
+1835,
+61
+],
+[
+"Ecuador",
+"Ecuador",
+35306,
+2939
+],
+[
+"Egypt",
+"Egypt",
+15003,
+696
+],
+[
+"El Salvador",
+"El Salvador",
+1640,
+33
+],
+[
+"Equatorial Guinea",
+"Equatorial Guinea",
+903,
+10
+],
+[
+"Eritrea",
+"Eritrea",
+39,
+0
+],
+[
+"Estonia",
+"Estonia",
+1800,
+64
+],
+[
+"Eswatini",
+"Eswatini",
+220,
+2
+],
+[
+"Ethiopia",
+"Ethiopia",
+399,
+5
+],
+[
+"Faeroe Islands",
+"Faeroe Islands",
+187,
+0
+],
+[
+"Falkland Islands",
+"Falkland Islands",
+13,
+0
+],
+[
+"Fiji",
+"Fiji",
+18,
+0
+],
+[
+"Finland",
+"Finland",
+6493,
+306
+],
+[
+"France",
+"France",
+181826,
+28215
+],
+[
+"French Guiana",
+"French Guiana",
+249,
+1
+],
+[
+"French Polynesia",
+"French Polynesia",
+60,
+0
+],
+[
+"Gabon",
+"Gabon",
+1567,
+12
+],
+[
+"Gambia",
+"Gambia",
+24,
+1
+],
+[
+"Georgia",
+"Georgia",
+721,
+12
+],
+[
+"Germany",
+"Germany",
+179021,
+8309
+],
+[
+"Ghana",
+"Ghana",
+6486,
+31
+],
+[
+"Gibraltar",
+"Gibraltar",
+151,
+0
+],
+[
+"Greece",
+"Greece",
+2853,
+168
+],
+[
+"Greenland",
+"Greenland",
+11,
+0
+],
+[
+"Grenada",
+"Grenada",
+22,
+0
+],
+[
+"Guadeloupe",
+"Guadeloupe",
+155,
+13
+],
+[
+"Guatemala",
+"Guatemala",
+2512,
+48
+],
+[
+"Guinea",
+"Guinea",
+3067,
+18
+],
+[
+"Guinea-Bissau",
+"Guinea-Bissau",
+1109,
+6
+],
+[
+"Guyana",
+"Guyana",
+127,
+10
+],
+[
+"Haiti",
+"Haiti",
+734,
+25
+],
+[
+"Holy See",
+"Holy See",
+12,
+0
+],
+[
+"Honduras",
+"Honduras",
+3204,
+156
+],
+[
+"Hong Kong",
+"Hong Kong",
+1064,
+4
+],
+[
+"Hungary",
+"Hungary",
+3678,
+476
+],
+[
+"Iceland",
+"Iceland",
+1803,
+10
+],
+[
+"India",
+"India",
+118501,
+3585
+],
+[
+"Indonesia",
+"Indonesia",
+20162,
+1278
+],
+[
+"Iran",
+"Iran",
+129341,
+7249
+],
+[
+"Iraq",
+"Iraq",
+3877,
+140
+],
+[
+"Ireland",
+"Ireland",
+24391,
+1583
+],
+[
+"Isle of Man",
+"Isle of Man",
+336,
+24
+],
+[
+"Israel",
+"Israel",
+16683,
+279
+],
+[
+"Italy",
+"Italy",
+228006,
+32486
+],
+[
+"Jamaica",
+"Jamaica",
+534,
+9
+],
+[
+"Japan (+Diamond Princess)",
+"Japan (+Diamond Princess)",
+17136,
+790
+],
+[
+"Jordan",
+"Jordan",
+684,
+9
+],
+[
+"Kazakhstan",
+"Kazakhstan",
+7597,
+35
+],
+[
+"Kenya",
+"Kenya",
+1109,
+50
+],
+[
+"Kuwait",
+"Kuwait",
+18609,
+129
+],
+[
+"Kyrgyzstan",
+"Kyrgyzstan",
+1350,
+14
+],
+[
+"Laos",
+"Laos",
+19,
+0
+],
+[
+"Latvia",
+"Latvia",
+1025,
+22
+],
+[
+"Lebanon",
+"Lebanon",
+1024,
+26
+],
+[
+"Lesotho",
+"Lesotho",
+1,
+0
+],
+[
+"Liberia",
+"Liberia",
+240,
+23
+],
+[
+"Libya",
+"Libya",
+71,
+3
+],
+[
+"Liechtenstein",
+"Liechtenstein",
+82,
+1
+],
+[
+"Lithuania",
+"Lithuania",
+1593,
+61
+],
+[
+"Luxembourg",
+"Luxembourg",
+3980,
+109
+],
+[
+"Macao",
+"Macao",
+45,
+0
+],
+[
+"Madagascar",
+"Madagascar",
+405,
+2
+],
+[
+"Malawi",
+"Malawi",
+72,
+3
+],
+[
+"Malaysia",
+"Malaysia",
+7059,
+114
+],
+[
+"Maldives",
+"Maldives",
+1216,
+4
+],
+[
+"Mali",
+"Mali",
+947,
+60
+],
+[
+"Malta",
+"Malta",
+599,
+6
+],
+[
+"Martinique",
+"Martinique",
+192,
+14
+],
+[
+"Mauritania",
+"Mauritania",
+173,
+5
+],
+[
+"Mauritius",
+"Mauritius",
+332,
+10
+],
+[
+"Mayotte",
+"Mayotte",
+1475,
+19
+],
+[
+"Mexico",
+"Mexico",
+59567,
+6510
+],
+[
+"Moldova",
+"Moldova",
+6704,
+233
+],
+[
+"Monaco",
+"Monaco",
+97,
+4
+],
+[
+"Mongolia",
+"Mongolia",
+141,
+0
+],
+[
+"Montenegro",
+"Montenegro",
+324,
+9
+],
+[
+"Montserrat",
+"Montserrat",
+11,
+1
+],
+[
+"Morocco",
+"Morocco",
+7211,
+196
+],
+[
+"Mozambique",
+"Mozambique",
+162,
+0
+],
+[
+"MS Zaandam",
+"MS Zaandam",
+9,
+2
+],
+[
+"Myanmar",
+"Myanmar",
+199,
+6
+],
+[
+"Namibia",
+"Namibia",
+18,
+0
+],
+[
+"Nepal",
+"Nepal",
+487,
+3
+],
+[
+"Netherlands",
+"Netherlands",
+44700,
+5775
+],
+[
+"New Caledonia",
+"New Caledonia",
+18,
+0
+],
+[
+"New Zealand",
+"New Zealand",
+1504,
+21
+],
+[
+"Nicaragua",
+"Nicaragua",
+279,
+17
+],
+[
+"Niger",
+"Niger",
+924,
+60
+],
+[
+"Nigeria",
+"Nigeria",
+7016,
+211
+],
+[
+"North Macedonia",
+"North Macedonia",
+1898,
+111
+],
+[
+"Norway",
+"Norway",
+8309,
+235
+],
+[
+"Oman",
+"Oman",
+6370,
+31
+],
+[
+"Pakistan",
+"Pakistan",
+50694,
+1067
+],
+[
+"Panama",
+"Panama",
+10116,
+291
+],
+[
+"Papua New Guinea",
+"Papua New Guinea",
+8,
+0
+],
+[
+"Paraguay",
+"Paraguay",
+836,
+11
+],
+[
+"Peru",
+"Peru",
+108769,
+3148
+],
+[
+"Philippines",
+"Philippines",
+13434,
+846
+],
+[
+"Poland",
+"Poland",
+20143,
+972
+],
+[
+"Portugal",
+"Portugal",
+29912,
+1277
+],
+[
+"Qatar",
+"Qatar",
+38651,
+17
+],
+[
+"Réunion",
+"Réunion",
+449,
+1
+],
+[
+"Romania",
+"Romania",
+17585,
+1156
+],
+[
+"Russia",
+"Russia",
+317554,
+3099
+],
+[
+"Rwanda",
+"Rwanda",
+320,
+0
+],
+[
+"Saint Barthelemy",
+"Saint Barthelemy",
+6,
+0
+],
+[
+"Saint Kitts & Nevis",
+"Saint Kitts & Nevis",
+15,
+0
+],
+[
+"Saint Lucia",
+"Saint Lucia",
+18,
+0
+],
+[
+"Saint Martin",
+"Saint Martin",
+40,
+3
+],
+[
+"Saint Pierre & Miquelon",
+"Saint Pierre & Miquelon",
+1,
+0
+],
+[
+"San Marino",
+"San Marino",
+658,
+41
+],
+[
+"Sao Tome & Principe",
+"Sao Tome & Principe",
+251,
+8
+],
+[
+"Saudi Arabia",
+"Saudi Arabia",
+65077,
+351
+],
+[
+"Senegal",
+"Senegal",
+2812,
+33
+],
+[
+"Serbia",
+"Serbia",
+10919,
+237
+],
+[
+"Seychelles",
+"Seychelles",
+11,
+0
+],
+[
+"Sierra Leone",
+"Sierra Leone",
+585,
+35
+],
+[
+"Singapore",
+"Singapore",
+29812,
+23
+],
+[
+"Sint Maarten",
+"Sint Maarten",
+77,
+15
+],
+[
+"Slovakia",
+"Slovakia",
+1502,
+28
+],
+[
+"Slovenia",
+"Slovenia",
+1468,
+106
+],
+[
+"Somalia",
+"Somalia",
+1594,
+61
+],
+[
+"South Africa",
+"South Africa",
+19137,
+369
+],
+[
+"South Korea",
+"South Korea",
+11142,
+264
+],
+[
+"South Sudan",
+"South Sudan",
+481,
+4
+],
+[
+"Spain",
+"Spain",
+280117,
+27940
+],
+[
+"Sri Lanka",
+"Sri Lanka",
+1055,
+9
+],
+[
+"St. Vincent & Grenadines",
+"St. Vincent & Grenadines",
+18,
+0
+],
+[
+"State of Palestine",
+"State of Palestine",
+423,
+2
+],
+[
+"Sudan",
+"Sudan",
+3138,
+121
+],
+[
+"Suriname",
+"Suriname",
+11,
+1
+],
+[
+"Sweden",
+"Sweden",
+32172,
+3871
+],
+[
+"Switzerland",
+"Switzerland",
+30694,
+1898
+],
+[
+"Syria",
+"Syria",
+58,
+3
+],
+[
+"Taiwan",
+"Taiwan",
+441,
+7
+],
+[
+"Tajikistan",
+"Tajikistan",
+2350,
+44
+],
+[
+"Tanzania",
+"Tanzania",
+509,
+21
+],
+[
+"Thailand",
+"Thailand",
+3037,
+56
+],
+[
+"Timor-Leste",
+"Timor-Leste",
+24,
+0
+],
+[
+"Togo",
+"Togo",
+354,
+12
+],
+[
+"Trinidad and Tobago",
+"Trinidad and Tobago",
+116,
+8
+],
+[
+"Tunisia",
+"Tunisia",
+1046,
+47
+],
+[
+"Turkey",
+"Turkey",
+153548,
+4249
+],
+[
+"Turks and Caicos",
+"Turks and Caicos",
+12,
+1
+],
+[
+"Uganda",
+"Uganda",
+160,
+0
+],
+[
+"Ukraine",
+"Ukraine",
+19706,
+579
+],
+[
+"United Arab Emirates",
+"United Arab Emirates",
+26898,
+237
+],
+[
+"United Kingdom",
+"United Kingdom",
+250908,
+36042
+],
+[
+"United States",
+"United States",
+1620902,
+96354
+],
+[
+"Uruguay",
+"Uruguay",
+749,
+20
+],
+[
+"Uzbekistan",
+"Uzbekistan",
+2967,
+13
+],
+[
+"Venezuela",
+"Venezuela",
+882,
+10
+],
+[
+"Vietnam",
+"Vietnam",
+324,
+0
+],
+[
+"Western Sahara",
+"Western Sahara",
+6,
+0
+],
+[
+"Yemen",
+"Yemen",
+197,
+33
+],
+[
+"Zambia",
+"Zambia",
+866,
+7
+],
+[
+"Zimbabwe",
+"Zimbabwe",
+51,
+4
+] 
+];
+data.addColumn('string','Country');
+data.addColumn('string','Country.1');
+data.addColumn('number','Cases');
+data.addColumn('number','Deaths');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataTableID2bc56c9e87 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Afghanistan",
+8676,
+193,
+"Asia"
+],
+[
+"Albania",
+969,
+31,
+"Europe"
+],
+[
+"Algeria",
+7728,
+575,
+"Africa"
+],
+[
+"Andorra",
+762,
+51,
+"Europe"
+],
+[
+"Angola",
+58,
+3,
+"Africa"
+],
+[
+"Anguilla",
+3,
+0,
+"North America"
+],
+[
+"Antigua and Barbuda",
+25,
+3,
+"North America"
+],
+[
+"Argentina",
+9931,
+416,
+"South America"
+],
+[
+"Armenia",
+5606,
+70,
+"Asia"
+],
+[
+"Aruba",
+101,
+3,
+"North America"
+],
+[
+"Australia",
+7095,
+101,
+"Australia/Oceania"
+],
+[
+"Austria",
+16404,
+633,
+"Europe"
+],
+[
+"Azerbaijan",
+3749,
+44,
+"Asia"
+],
+[
+"Bahamas",
+97,
+11,
+"North America"
+],
+[
+"Bahrain",
+8174,
+12,
+"Asia"
+],
+[
+"Bangladesh",
+28511,
+408,
+"Asia"
+],
+[
+"Barbados",
+90,
+7,
+"North America"
+],
+[
+"Belarus",
+33371,
+185,
+"Europe"
+],
+[
+"Belgium",
+56235,
+9186,
+"Europe"
+],
+[
+"Belize",
+18,
+2,
+"North America"
+],
+[
+"Benin",
+135,
+3,
+"Africa"
+],
+[
+"Bermuda",
+125,
+9,
+"North America"
+],
+[
+"Bhutan",
+21,
+0,
+"Asia"
+],
+[
+"Bolivia",
+5187,
+215,
+"South America"
+],
+[
+"Bosnia and Herzegovina",
+2350,
+140,
+"Europe"
+],
+[
+"Botswana",
+29,
+1,
+"Africa"
+],
+[
+"Brazil",
+310921,
+20082,
+"South America"
+],
+[
+"British Virgin Islands",
+8,
+1,
+"North America"
+],
+[
+"Brunei",
+141,
+1,
+"Asia"
+],
+[
+"Bulgaria",
+2331,
+120,
+"Europe"
+],
+[
+"Burkina Faso",
+812,
+52,
+"Africa"
+],
+[
+"Burundi",
+42,
+1,
+"Africa"
+],
+[
+"Cabo Verde",
+356,
+3,
+"Africa"
+],
+[
+"Cambodia",
+123,
+0,
+"Asia"
+],
+[
+"Cameroon",
+4288,
+156,
+"Africa"
+],
+[
+"Canada",
+81324,
+6152,
+"North America"
+],
+[
+"Caribbean Netherlands",
+6,
+0,
+"North America"
+],
+[
+"Cayman Islands",
+121,
+1,
+"North America"
+],
+[
+"Central African Republic",
+436,
+0,
+"Africa"
+],
+[
+"Chad",
+588,
+58,
+"Africa"
+],
+[
+"Channel Islands",
+558,
+45,
+"Europe"
+],
+[
+"Chile",
+57581,
+589,
+"South America"
+],
+[
+"China",
+82971,
+4634,
+"Asia"
+],
+[
+"Colombia",
+18330,
+652,
+"South America"
+],
+[
+"Comoros",
+34,
+1,
+"Africa"
+],
+[
+"Congo",
+469,
+16,
+"Africa"
+],
+[
+"Costa Rica",
+903,
+10,
+"North America"
+],
+[
+"Côte d'Ivoire",
+2301,
+29,
+"Africa"
+],
+[
+"Croatia",
+2237,
+97,
+"Europe"
+],
+[
+"Cuba",
+1908,
+80,
+"North America"
+],
+[
+"Curaçao",
+16,
+1,
+"North America"
+],
+[
+"Cyprus",
+923,
+17,
+"Asia"
+],
+[
+"Czech Republic (Czechia)",
+8754,
+306,
+"Europe"
+],
+[
+"Denmark",
+11182,
+561,
+"Europe"
+],
+[
+"Djibouti",
+2047,
+10,
+"Africa"
+],
+[
+"Dominica",
+16,
+0,
+"North America"
+],
+[
+"Dominican Republic",
+13657,
+448,
+"North America"
+],
+[
+"DR Congo",
+1835,
+61,
+"Africa"
+],
+[
+"Ecuador",
+35306,
+2939,
+"South America"
+],
+[
+"Egypt",
+15003,
+696,
+"Africa"
+],
+[
+"El Salvador",
+1640,
+33,
+"North America"
+],
+[
+"Equatorial Guinea",
+903,
+10,
+"Africa"
+],
+[
+"Eritrea",
+39,
+0,
+"Africa"
+],
+[
+"Estonia",
+1800,
+64,
+"Europe"
+],
+[
+"Eswatini",
+220,
+2,
+"Africa"
+],
+[
+"Ethiopia",
+399,
+5,
+"Africa"
+],
+[
+"Faeroe Islands",
+187,
+0,
+"Europe"
+],
+[
+"Falkland Islands",
+13,
+0,
+"South America"
+],
+[
+"Fiji",
+18,
+0,
+"Australia/Oceania"
+],
+[
+"Finland",
+6493,
+306,
+"Europe"
+],
+[
+"France",
+181826,
+28215,
+"Europe"
+],
+[
+"French Guiana",
+249,
+1,
+"South America"
+],
+[
+"French Polynesia",
+60,
+0,
+"Australia/Oceania"
+],
+[
+"Gabon",
+1567,
+12,
+"Africa"
+],
+[
+"Gambia",
+24,
+1,
+"Africa"
+],
+[
+"Georgia",
+721,
+12,
+"Asia"
+],
+[
+"Germany",
+179021,
+8309,
+"Europe"
+],
+[
+"Ghana",
+6486,
+31,
+"Africa"
+],
+[
+"Gibraltar",
+151,
+0,
+"Europe"
+],
+[
+"Greece",
+2853,
+168,
+"Europe"
+],
+[
+"Greenland",
+11,
+0,
+"North America"
+],
+[
+"Grenada",
+22,
+0,
+"North America"
+],
+[
+"Guadeloupe",
+155,
+13,
+"North America"
+],
+[
+"Guatemala",
+2512,
+48,
+"North America"
+],
+[
+"Guinea",
+3067,
+18,
+"Africa"
+],
+[
+"Guinea-Bissau",
+1109,
+6,
+"Africa"
+],
+[
+"Guyana",
+127,
+10,
+"South America"
+],
+[
+"Haiti",
+734,
+25,
+"North America"
+],
+[
+"Holy See",
+12,
+0,
+"Europe"
+],
+[
+"Honduras",
+3204,
+156,
+"North America"
+],
+[
+"Hong Kong",
+1064,
+4,
+"Asia"
+],
+[
+"Hungary",
+3678,
+476,
+"Europe"
+],
+[
+"Iceland",
+1803,
+10,
+"Europe"
+],
+[
+"India",
+118501,
+3585,
+"Asia"
+],
+[
+"Indonesia",
+20162,
+1278,
+"Asia"
+],
+[
+"Iran",
+129341,
+7249,
+"Asia"
+],
+[
+"Iraq",
+3877,
+140,
+"Asia"
+],
+[
+"Ireland",
+24391,
+1583,
+"Europe"
+],
+[
+"Isle of Man",
+336,
+24,
+"Europe"
+],
+[
+"Israel",
+16683,
+279,
+"Asia"
+],
+[
+"Italy",
+228006,
+32486,
+"Europe"
+],
+[
+"Jamaica",
+534,
+9,
+"North America"
+],
+[
+"Japan (+Diamond Princess)",
+17136,
+790,
+"Asia"
+],
+[
+"Jordan",
+684,
+9,
+"Asia"
+],
+[
+"Kazakhstan",
+7597,
+35,
+"Asia"
+],
+[
+"Kenya",
+1109,
+50,
+"Africa"
+],
+[
+"Kuwait",
+18609,
+129,
+"Asia"
+],
+[
+"Kyrgyzstan",
+1350,
+14,
+"Asia"
+],
+[
+"Laos",
+19,
+0,
+"Asia"
+],
+[
+"Latvia",
+1025,
+22,
+"Europe"
+],
+[
+"Lebanon",
+1024,
+26,
+"Asia"
+],
+[
+"Lesotho",
+1,
+0,
+"Africa"
+],
+[
+"Liberia",
+240,
+23,
+"Africa"
+],
+[
+"Libya",
+71,
+3,
+"Africa"
+],
+[
+"Liechtenstein",
+82,
+1,
+"Europe"
+],
+[
+"Lithuania",
+1593,
+61,
+"Europe"
+],
+[
+"Luxembourg",
+3980,
+109,
+"Europe"
+],
+[
+"Macao",
+45,
+0,
+"Asia"
+],
+[
+"Madagascar",
+405,
+2,
+"Africa"
+],
+[
+"Malawi",
+72,
+3,
+"Africa"
+],
+[
+"Malaysia",
+7059,
+114,
+"Asia"
+],
+[
+"Maldives",
+1216,
+4,
+"Asia"
+],
+[
+"Mali",
+947,
+60,
+"Africa"
+],
+[
+"Malta",
+599,
+6,
+"Europe"
+],
+[
+"Martinique",
+192,
+14,
+"North America"
+],
+[
+"Mauritania",
+173,
+5,
+"Africa"
+],
+[
+"Mauritius",
+332,
+10,
+"Africa"
+],
+[
+"Mayotte",
+1475,
+19,
+"Africa"
+],
+[
+"Mexico",
+59567,
+6510,
+"North America"
+],
+[
+"Moldova",
+6704,
+233,
+"Europe"
+],
+[
+"Monaco",
+97,
+4,
+"Europe"
+],
+[
+"Mongolia",
+141,
+0,
+"Asia"
+],
+[
+"Montenegro",
+324,
+9,
+"Europe"
+],
+[
+"Montserrat",
+11,
+1,
+"North America"
+],
+[
+"Morocco",
+7211,
+196,
+"Africa"
+],
+[
+"Mozambique",
+162,
+0,
+"Africa"
+],
+[
+"MS Zaandam",
+9,
+2,
+""
+],
+[
+"Myanmar",
+199,
+6,
+"Asia"
+],
+[
+"Namibia",
+18,
+0,
+"Africa"
+],
+[
+"Nepal",
+487,
+3,
+"Asia"
+],
+[
+"Netherlands",
+44700,
+5775,
+"Europe"
+],
+[
+"New Caledonia",
+18,
+0,
+"Australia/Oceania"
+],
+[
+"New Zealand",
+1504,
+21,
+"Australia/Oceania"
+],
+[
+"Nicaragua",
+279,
+17,
+"North America"
+],
+[
+"Niger",
+924,
+60,
+"Africa"
+],
+[
+"Nigeria",
+7016,
+211,
+"Africa"
+],
+[
+"North Macedonia",
+1898,
+111,
+"Europe"
+],
+[
+"Norway",
+8309,
+235,
+"Europe"
+],
+[
+"Oman",
+6370,
+31,
+"Asia"
+],
+[
+"Pakistan",
+50694,
+1067,
+"Asia"
+],
+[
+"Panama",
+10116,
+291,
+"North America"
+],
+[
+"Papua New Guinea",
+8,
+0,
+"Australia/Oceania"
+],
+[
+"Paraguay",
+836,
+11,
+"South America"
+],
+[
+"Peru",
+108769,
+3148,
+"South America"
+],
+[
+"Philippines",
+13434,
+846,
+"Asia"
+],
+[
+"Poland",
+20143,
+972,
+"Europe"
+],
+[
+"Portugal",
+29912,
+1277,
+"Europe"
+],
+[
+"Qatar",
+38651,
+17,
+"Asia"
+],
+[
+"Réunion",
+449,
+1,
+"Africa"
+],
+[
+"Romania",
+17585,
+1156,
+"Europe"
+],
+[
+"Russia",
+317554,
+3099,
+"Europe"
+],
+[
+"Rwanda",
+320,
+0,
+"Africa"
+],
+[
+"Saint Barthelemy",
+6,
+0,
+"North America"
+],
+[
+"Saint Kitts & Nevis",
+15,
+0,
+"North America"
+],
+[
+"Saint Lucia",
+18,
+0,
+"North America"
+],
+[
+"Saint Martin",
+40,
+3,
+"North America"
+],
+[
+"Saint Pierre & Miquelon",
+1,
+0,
+"North America"
+],
+[
+"San Marino",
+658,
+41,
+"Europe"
+],
+[
+"Sao Tome & Principe",
+251,
+8,
+"Africa"
+],
+[
+"Saudi Arabia",
+65077,
+351,
+"Asia"
+],
+[
+"Senegal",
+2812,
+33,
+"Africa"
+],
+[
+"Serbia",
+10919,
+237,
+"Europe"
+],
+[
+"Seychelles",
+11,
+0,
+"Africa"
+],
+[
+"Sierra Leone",
+585,
+35,
+"Africa"
+],
+[
+"Singapore",
+29812,
+23,
+"Asia"
+],
+[
+"Sint Maarten",
+77,
+15,
+"North America"
+],
+[
+"Slovakia",
+1502,
+28,
+"Europe"
+],
+[
+"Slovenia",
+1468,
+106,
+"Europe"
+],
+[
+"Somalia",
+1594,
+61,
+"Africa"
+],
+[
+"South Africa",
+19137,
+369,
+"Africa"
+],
+[
+"South Korea",
+11142,
+264,
+"Asia"
+],
+[
+"South Sudan",
+481,
+4,
+"Africa"
+],
+[
+"Spain",
+280117,
+27940,
+"Europe"
+],
+[
+"Sri Lanka",
+1055,
+9,
+"Asia"
+],
+[
+"St. Vincent & Grenadines",
+18,
+0,
+"North America"
+],
+[
+"State of Palestine",
+423,
+2,
+"Asia"
+],
+[
+"Sudan",
+3138,
+121,
+"Africa"
+],
+[
+"Suriname",
+11,
+1,
+"South America"
+],
+[
+"Sweden",
+32172,
+3871,
+"Europe"
+],
+[
+"Switzerland",
+30694,
+1898,
+"Europe"
+],
+[
+"Syria",
+58,
+3,
+"Asia"
+],
+[
+"Taiwan",
+441,
+7,
+"Asia"
+],
+[
+"Tajikistan",
+2350,
+44,
+"Asia"
+],
+[
+"Tanzania",
+509,
+21,
+"Africa"
+],
+[
+"Thailand",
+3037,
+56,
+"Asia"
+],
+[
+"Timor-Leste",
+24,
+0,
+"Asia"
+],
+[
+"Togo",
+354,
+12,
+"Africa"
+],
+[
+"Trinidad and Tobago",
+116,
+8,
+"North America"
+],
+[
+"Tunisia",
+1046,
+47,
+"Africa"
+],
+[
+"Turkey",
+153548,
+4249,
+"Asia"
+],
+[
+"Turks and Caicos",
+12,
+1,
+"North America"
+],
+[
+"Uganda",
+160,
+0,
+"Africa"
+],
+[
+"Ukraine",
+19706,
+579,
+"Europe"
+],
+[
+"United Arab Emirates",
+26898,
+237,
+"Asia"
+],
+[
+"United Kingdom",
+250908,
+36042,
+"Europe"
+],
+[
+"United States",
+1620902,
+96354,
+"North America"
+],
+[
+"Uruguay",
+749,
+20,
+"South America"
+],
+[
+"Uzbekistan",
+2967,
+13,
+"Asia"
+],
+[
+"Venezuela",
+882,
+10,
+"South America"
+],
+[
+"Vietnam",
+324,
+0,
+"Asia"
+],
+[
+"Western Sahara",
+6,
+0,
+"Africa"
+],
+[
+"Yemen",
+197,
+33,
+"Asia"
+],
+[
+"Zambia",
+866,
+7,
+"Africa"
+],
+[
+"Zimbabwe",
+51,
+4,
+"Africa"
+] 
+];
+data.addColumn('string','Country');
+data.addColumn('number','Cases');
+data.addColumn('number','Deaths');
+data.addColumn('string','Region');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataLineChartID17c43e4f5d19 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+new Date(2019,11,31),
+0
+],
+[
+new Date(2020,0,1),
+0
+],
+[
+new Date(2020,0,2),
+0
+],
+[
+new Date(2020,0,3),
+0
+],
+[
+new Date(2020,0,4),
+0
+],
+[
+new Date(2020,0,5),
+0
+],
+[
+new Date(2020,0,6),
+0
+],
+[
+new Date(2020,0,7),
+0
+],
+[
+new Date(2020,0,8),
+0
+],
+[
+new Date(2020,0,9),
+0
+],
+[
+new Date(2020,0,10),
+0
+],
+[
+new Date(2020,0,11),
+0
+],
+[
+new Date(2020,0,12),
+0
+],
+[
+new Date(2020,0,13),
+0
+],
+[
+new Date(2020,0,14),
+0
+],
+[
+new Date(2020,0,15),
+0
+],
+[
+new Date(2020,0,16),
+0
+],
+[
+new Date(2020,0,17),
+0
+],
+[
+new Date(2020,0,18),
+0
+],
+[
+new Date(2020,0,19),
+0
+],
+[
+new Date(2020,0,20),
+0
+],
+[
+new Date(2020,0,21),
+0
+],
+[
+new Date(2020,0,22),
+0
+],
+[
+new Date(2020,0,23),
+0
+],
+[
+new Date(2020,0,24),
+0
+],
+[
+new Date(2020,0,25),
+0
+],
+[
+new Date(2020,0,26),
+0
+],
+[
+new Date(2020,0,27),
+0
+],
+[
+new Date(2020,0,28),
+1
+],
+[
+new Date(2020,0,29),
+1
+],
+[
+new Date(2020,0,30),
+1
+],
+[
+new Date(2020,0,31),
+1
+],
+[
+new Date(2020,1,1),
+1
+],
+[
+new Date(2020,1,2),
+1
+],
+[
+new Date(2020,1,3),
+1
+],
+[
+new Date(2020,1,4),
+1
+],
+[
+new Date(2020,1,5),
+1
+],
+[
+new Date(2020,1,6),
+1
+],
+[
+new Date(2020,1,7),
+1
+],
+[
+new Date(2020,1,8),
+1
+],
+[
+new Date(2020,1,9),
+1
+],
+[
+new Date(2020,1,10),
+1
+],
+[
+new Date(2020,1,11),
+1
+],
+[
+new Date(2020,1,12),
+1
+],
+[
+new Date(2020,1,13),
+1
+],
+[
+new Date(2020,1,14),
+1
+],
+[
+new Date(2020,1,15),
+1
+],
+[
+new Date(2020,1,16),
+1
+],
+[
+new Date(2020,1,17),
+1
+],
+[
+new Date(2020,1,18),
+1
+],
+[
+new Date(2020,1,19),
+1
+],
+[
+new Date(2020,1,20),
+1
+],
+[
+new Date(2020,1,21),
+1
+],
+[
+new Date(2020,1,22),
+1
+],
+[
+new Date(2020,1,23),
+1
+],
+[
+new Date(2020,1,24),
+1
+],
+[
+new Date(2020,1,25),
+1
+],
+[
+new Date(2020,1,26),
+1
+],
+[
+new Date(2020,1,27),
+1
+],
+[
+new Date(2020,1,28),
+1
+],
+[
+new Date(2020,1,29),
+1
+],
+[
+new Date(2020,2,1),
+1
+],
+[
+new Date(2020,2,2),
+1
+],
+[
+new Date(2020,2,12),
+2
+],
+[
+new Date(2020,2,13),
+3
+],
+[
+new Date(2020,2,14),
+6
+],
+[
+new Date(2020,2,15),
+11
+],
+[
+new Date(2020,2,16),
+19
+],
+[
+new Date(2020,2,17),
+29
+],
+[
+new Date(2020,2,18),
+42
+],
+[
+new Date(2020,2,19),
+42
+],
+[
+new Date(2020,2,20),
+53
+],
+[
+new Date(2020,2,21),
+66
+],
+[
+new Date(2020,2,22),
+78
+],
+[
+new Date(2020,2,23),
+87
+],
+[
+new Date(2020,2,24),
+97
+],
+[
+new Date(2020,2,25),
+102
+],
+[
+new Date(2020,2,26),
+102
+],
+[
+new Date(2020,2,27),
+106
+],
+[
+new Date(2020,2,28),
+106
+],
+[
+new Date(2020,2,29),
+115
+],
+[
+new Date(2020,2,30),
+120
+],
+[
+new Date(2020,2,31),
+120
+],
+[
+new Date(2020,3,1),
+122
+],
+[
+new Date(2020,3,2),
+143
+],
+[
+new Date(2020,3,3),
+148
+],
+[
+new Date(2020,3,4),
+151
+],
+[
+new Date(2020,3,5),
+159
+],
+[
+new Date(2020,3,6),
+166
+],
+[
+new Date(2020,3,7),
+178
+],
+[
+new Date(2020,3,8),
+185
+],
+[
+new Date(2020,3,9),
+189
+],
+[
+new Date(2020,3,10),
+190
+],
+[
+new Date(2020,3,11),
+197
+],
+[
+new Date(2020,3,12),
+199
+],
+[
+new Date(2020,3,13),
+210
+],
+[
+new Date(2020,3,14),
+218
+],
+[
+new Date(2020,3,15),
+233
+],
+[
+new Date(2020,3,16),
+237
+],
+[
+new Date(2020,3,17),
+238
+],
+[
+new Date(2020,3,18),
+244
+],
+[
+new Date(2020,3,19),
+254
+],
+[
+new Date(2020,3,20),
+295
+],
+[
+new Date(2020,3,21),
+304
+],
+[
+new Date(2020,3,22),
+310
+],
+[
+new Date(2020,3,23),
+330
+],
+[
+new Date(2020,3,24),
+368
+],
+[
+new Date(2020,3,25),
+420
+],
+[
+new Date(2020,3,26),
+462
+],
+[
+new Date(2020,3,27),
+523
+],
+[
+new Date(2020,3,28),
+588
+],
+[
+new Date(2020,3,29),
+619
+],
+[
+new Date(2020,3,30),
+649
+],
+[
+new Date(2020,4,1),
+665
+],
+[
+new Date(2020,4,2),
+690
+],
+[
+new Date(2020,4,3),
+705
+],
+[
+new Date(2020,4,4),
+718
+],
+[
+new Date(2020,4,5),
+755
+],
+[
+new Date(2020,4,6),
+771
+],
+[
+new Date(2020,4,7),
+797
+],
+[
+new Date(2020,4,8),
+824
+],
+[
+new Date(2020,4,9),
+835
+],
+[
+new Date(2020,4,10),
+847
+],
+[
+new Date(2020,4,11),
+863
+],
+[
+new Date(2020,4,12),
+869
+],
+[
+new Date(2020,4,13),
+889
+],
+[
+new Date(2020,4,14),
+915
+],
+[
+new Date(2020,4,15),
+925
+],
+[
+new Date(2020,4,16),
+935
+],
+[
+new Date(2020,4,17),
+960
+],
+[
+new Date(2020,4,18),
+981
+],
+[
+new Date(2020,4,19),
+992
+],
+[
+new Date(2020,4,20),
+1027
+],
+[
+new Date(2020,4,21),
+1028
+] 
+];
+data.addColumn('date','date');
+data.addColumn('number','total_cases');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataColumnChartID17c43c0b61aa () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+new Date(2019,11,31),
+0
+],
+[
+new Date(2020,0,1),
+0
+],
+[
+new Date(2020,0,2),
+0
+],
+[
+new Date(2020,0,3),
+0
+],
+[
+new Date(2020,0,4),
+0
+],
+[
+new Date(2020,0,5),
+0
+],
+[
+new Date(2020,0,6),
+0
+],
+[
+new Date(2020,0,7),
+0
+],
+[
+new Date(2020,0,8),
+0
+],
+[
+new Date(2020,0,9),
+0
+],
+[
+new Date(2020,0,10),
+0
+],
+[
+new Date(2020,0,11),
+0
+],
+[
+new Date(2020,0,12),
+0
+],
+[
+new Date(2020,0,13),
+0
+],
+[
+new Date(2020,0,14),
+0
+],
+[
+new Date(2020,0,15),
+0
+],
+[
+new Date(2020,0,16),
+0
+],
+[
+new Date(2020,0,17),
+0
+],
+[
+new Date(2020,0,18),
+0
+],
+[
+new Date(2020,0,19),
+0
+],
+[
+new Date(2020,0,20),
+0
+],
+[
+new Date(2020,0,21),
+0
+],
+[
+new Date(2020,0,22),
+0
+],
+[
+new Date(2020,0,23),
+0
+],
+[
+new Date(2020,0,24),
+0
+],
+[
+new Date(2020,0,25),
+0
+],
+[
+new Date(2020,0,26),
+0
+],
+[
+new Date(2020,0,27),
+0
+],
+[
+new Date(2020,0,28),
+1
+],
+[
+new Date(2020,0,29),
+0
+],
+[
+new Date(2020,0,30),
+0
+],
+[
+new Date(2020,0,31),
+0
+],
+[
+new Date(2020,1,1),
+0
+],
+[
+new Date(2020,1,2),
+0
+],
+[
+new Date(2020,1,3),
+0
+],
+[
+new Date(2020,1,4),
+0
+],
+[
+new Date(2020,1,5),
+0
+],
+[
+new Date(2020,1,6),
+0
+],
+[
+new Date(2020,1,7),
+0
+],
+[
+new Date(2020,1,8),
+0
+],
+[
+new Date(2020,1,9),
+0
+],
+[
+new Date(2020,1,10),
+0
+],
+[
+new Date(2020,1,11),
+0
+],
+[
+new Date(2020,1,12),
+0
+],
+[
+new Date(2020,1,13),
+0
+],
+[
+new Date(2020,1,14),
+0
+],
+[
+new Date(2020,1,15),
+0
+],
+[
+new Date(2020,1,16),
+0
+],
+[
+new Date(2020,1,17),
+0
+],
+[
+new Date(2020,1,18),
+0
+],
+[
+new Date(2020,1,19),
+0
+],
+[
+new Date(2020,1,20),
+0
+],
+[
+new Date(2020,1,21),
+0
+],
+[
+new Date(2020,1,22),
+0
+],
+[
+new Date(2020,1,23),
+0
+],
+[
+new Date(2020,1,24),
+0
+],
+[
+new Date(2020,1,25),
+0
+],
+[
+new Date(2020,1,26),
+0
+],
+[
+new Date(2020,1,27),
+0
+],
+[
+new Date(2020,1,28),
+0
+],
+[
+new Date(2020,1,29),
+0
+],
+[
+new Date(2020,2,1),
+0
+],
+[
+new Date(2020,2,2),
+0
+],
+[
+new Date(2020,2,12),
+1
+],
+[
+new Date(2020,2,13),
+1
+],
+[
+new Date(2020,2,14),
+3
+],
+[
+new Date(2020,2,15),
+5
+],
+[
+new Date(2020,2,16),
+8
+],
+[
+new Date(2020,2,17),
+10
+],
+[
+new Date(2020,2,18),
+13
+],
+[
+new Date(2020,2,19),
+0
+],
+[
+new Date(2020,2,20),
+11
+],
+[
+new Date(2020,2,21),
+13
+],
+[
+new Date(2020,2,22),
+12
+],
+[
+new Date(2020,2,23),
+9
+],
+[
+new Date(2020,2,24),
+10
+],
+[
+new Date(2020,2,25),
+5
+],
+[
+new Date(2020,2,26),
+0
+],
+[
+new Date(2020,2,27),
+4
+],
+[
+new Date(2020,2,28),
+0
+],
+[
+new Date(2020,2,29),
+9
+],
+[
+new Date(2020,2,30),
+5
+],
+[
+new Date(2020,2,31),
+0
+],
+[
+new Date(2020,3,1),
+2
+],
+[
+new Date(2020,3,2),
+21
+],
+[
+new Date(2020,3,3),
+5
+],
+[
+new Date(2020,3,4),
+3
+],
+[
+new Date(2020,3,5),
+8
+],
+[
+new Date(2020,3,6),
+7
+],
+[
+new Date(2020,3,7),
+12
+],
+[
+new Date(2020,3,8),
+7
+],
+[
+new Date(2020,3,9),
+4
+],
+[
+new Date(2020,3,10),
+1
+],
+[
+new Date(2020,3,11),
+7
+],
+[
+new Date(2020,3,12),
+2
+],
+[
+new Date(2020,3,13),
+11
+],
+[
+new Date(2020,3,14),
+8
+],
+[
+new Date(2020,3,15),
+15
+],
+[
+new Date(2020,3,16),
+4
+],
+[
+new Date(2020,3,17),
+1
+],
+[
+new Date(2020,3,18),
+6
+],
+[
+new Date(2020,3,19),
+10
+],
+[
+new Date(2020,3,20),
+41
+],
+[
+new Date(2020,3,21),
+9
+],
+[
+new Date(2020,3,22),
+6
+],
+[
+new Date(2020,3,23),
+20
+],
+[
+new Date(2020,3,24),
+38
+],
+[
+new Date(2020,3,25),
+52
+],
+[
+new Date(2020,3,26),
+42
+],
+[
+new Date(2020,3,27),
+61
+],
+[
+new Date(2020,3,28),
+65
+],
+[
+new Date(2020,3,29),
+31
+],
+[
+new Date(2020,3,30),
+30
+],
+[
+new Date(2020,4,1),
+16
+],
+[
+new Date(2020,4,2),
+25
+],
+[
+new Date(2020,4,3),
+15
+],
+[
+new Date(2020,4,4),
+13
+],
+[
+new Date(2020,4,5),
+37
+],
+[
+new Date(2020,4,6),
+16
+],
+[
+new Date(2020,4,7),
+26
+],
+[
+new Date(2020,4,8),
+27
+],
+[
+new Date(2020,4,9),
+11
+],
+[
+new Date(2020,4,10),
+12
+],
+[
+new Date(2020,4,11),
+16
+],
+[
+new Date(2020,4,12),
+6
+],
+[
+new Date(2020,4,13),
+20
+],
+[
+new Date(2020,4,14),
+26
+],
+[
+new Date(2020,4,15),
+10
+],
+[
+new Date(2020,4,16),
+10
+],
+[
+new Date(2020,4,17),
+25
+],
+[
+new Date(2020,4,18),
+21
+],
+[
+new Date(2020,4,19),
+11
+],
+[
+new Date(2020,4,20),
+35
+],
+[
+new Date(2020,4,21),
+1
+] 
+];
+data.addColumn('date','date');
+data.addColumn('number','new_cases');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGeoChartID2bc5b5962c1() {
+var data = gvisDataGeoChartID2bc5b5962c1();
+var options = {};
+options["width"] = 750;
+options["height"] = 400;
+options["colors"] = ['yellow','orange','red'];
+
+
+    var chart = new google.visualization.GeoChart(
+    document.getElementById('GeoChartID2bc5b5962c1')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartTableID2bc56c9e87() {
+var data = gvisDataTableID2bc56c9e87();
+var options = {};
+options["allowHtml"] = true;
+options["width"] = 550;
+options["height"] = 400;
+
+
+    var chart = new google.visualization.Table(
+    document.getElementById('TableID2bc56c9e87')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartLineChartID17c43e4f5d19() {
+var data = gvisDataLineChartID17c43e4f5d19();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "Total Cases of Sri Lanka";
+options["width"] = 600;
+options["height"] = 400;
+
+
+    var chart = new google.visualization.LineChart(
+    document.getElementById('LineChartID17c43e4f5d19')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+
+
+// jsDrawChart
+function drawChartColumnChartID17c43c0b61aa() {
+var data = gvisDataColumnChartID17c43c0b61aa();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "New Cases of Sri Lanka Each Day";
+options["width"] = 700;
+options["height"] = 400;
+
+
+    var chart = new google.visualization.ColumnChart(
+    document.getElementById('ColumnChartID17c43c0b61aa')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "geochart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartGeoChartID2bc5b5962c1);
+})();
+function displayChartGeoChartID2bc5b5962c1() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "table";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartTableID2bc56c9e87);
+})();
+function displayChartTableID2bc56c9e87() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID17c43e4f5d19);
+})();
+function displayChartLineChartID17c43e4f5d19() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartColumnChartID17c43c0b61aa);
+})();
+function displayChartColumnChartID17c43c0b61aa() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoChartID2bc5b5962c1"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID2bc56c9e87"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID17c43e4f5d19"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartColumnChartID17c43c0b61aa"></script>
+ 
+<table bgcolor="#CCCCCC" cellspacing=10>
+<tr>
+<td>
+
+<table bgcolor="#CCCCCC" cellspacing=10>
+<tr>
+<td>
+
+<!-- divChart -->
+  
+<div id="GeoChartID2bc5b5962c1" 
+  style="width: 750; height: 400;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+  
+<div id="TableID2bc56c9e87" 
+  style="width: 550; height: 400;">
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td>
+
+<table bgcolor="#CCCCCC" cellspacing=10>
+<tr>
+<td>
+
+<!-- divChart -->
+  
+<div id="LineChartID17c43e4f5d19" 
+  style="width: 600; height: 400;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+  
+<div id="ColumnChartID17c43c0b61aa" 
+  style="width: 700; height: 400;">
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+ 
+
+<!-- htmlFooter -->
+
+<footer id="main-footer" align="center">
+  
+  <p>Copyright &copy; 2020 Banuka Wijerathne</p>
+</footer>
+
+
+
+</body>
+</html>
