@@ -7,6 +7,7 @@ body{
 	overflow-y:scroll;
 	font-family: Arial;
 	font-size: 18px; 
+	min-height: 300px;
 }
 
 	
@@ -32,8 +33,16 @@ h2{
 	background-color: silver;
 	opacity: 0.8;
 	margin: 5px 5px 5px 5px;
+	width: 200px;
+	height: auto;
+	float: left;
 }
 
+#nav1 li{
+
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+}
 
 #nav1 a{
 margin: 5px 5px 5px 5px;
